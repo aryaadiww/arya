@@ -1,0 +1,694 @@
+body {
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.58);
+}
+
+/* BANNER */
+.banner {
+  background-image: url("img/ombak.png");
+  background-size: cover;
+  padding-top: 18%;
+  padding-bottom: 18%;
+  padding-left: 50%;
+  color: #132830;
+}
+
+.btn {
+  background-color:  #09202ec1;
+  border-radius: 50px;
+  font-family: "Cinzel", serif;
+}
+
+/* HALAMAN LAYANAN */
+.layanan {
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* IoT Developer */
+.layanan-box::before {
+  content: 'IoT';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box:hover::before {
+  opacity: 0.8;
+}
+
+.layanan-box::after {
+  content: 'DEVELOPER';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 280px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box:hover::after {
+  opacity: 0.8;
+}
+
+/* Web Developer */
+.layanan-box2::before {
+  content: 'WEB';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box2:hover::before {
+  opacity: 0.8;
+}
+
+.layanan-box2::after {
+  content: 'DEVELOPER';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 280px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box2:hover::after {
+  opacity: 0.8;
+}
+
+/* Graphic Designer */
+.layanan-box3::before {
+  content: 'GRAPHIC';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box3:hover::before {
+  opacity: 0.8;
+}
+
+.layanan-box3::after {
+  content: 'DESIGNER';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 280px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box3:hover::after {
+  opacity: 0.8;
+}
+
+/* TIM 1 */
+.layanan-box4::before {
+  content: 'ARYA ADI WIJAYA';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 50px;
+  left: 50%;
+  transform: translate(-50%,0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layanan-box4:hover::before {
+  transform: translate3d(-50%, -52%, 100px) rotate(-4deg) scale(1.2);
+  opacity: 0.8;
+}
+
+.layanan-box4::after {
+  content: 'UNGGUL DAN JAYA!';
+  position: absolute;
+  color: #132830aa;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%,0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box4:hover::after {
+  opacity: 0.8;
+}
+
+/* TIM 2 */
+.layanan-box5::before {
+  content: 'AFRIZAL ADI NUGROHO';
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 50px;
+  left: 50%;
+  transform: translate(-50%,0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layanan-box5:hover::before {
+  transform: translate3d(-50%, -52%, 100px) rotate(-4deg) scale(1.2);
+  opacity: 0.8;
+}
+
+.layanan-box5::after {
+  content: 'UNGGUL DAN JAYA!';
+  position: absolute;
+  color: #132830aa;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  left: 50%;
+  transform: translate(-50%,0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layanan-box5:hover::after {
+  opacity: 0.8;
+}
+
+/* IoT Developer */
+.layanan-box {
+  position: relative;
+  background-image: linear-gradient(170deg, #b7f9ffc8 0, #53bdf2c5 50%, #0081c7bb 100%);
+  border-radius: 10px;
+  height: 350px;
+  transform-style: preserve-3d;
+  margin-top: 20px;
+}
+
+/* Web Developer */
+.layanan-box2 {
+  position: relative;
+  background-image: linear-gradient(180deg, #abfaf2a8 0, #8feae6a9 25%, #6cd8d8a9 50%, #41c6cb9c 75%, #00b7c1a6 100%);
+  border-radius: 10px;
+  height: 350px;
+  transform-style: preserve-3d;
+  margin-top: 20px;
+}
+
+/* IaDOBE PHOTOSHOP */
+.layanan-box3 {
+  position: relative;
+  background-image: linear-gradient(225deg, #8c9dffc4 0, #486fe5b6 50%, #004298a4 100%);
+  border-radius: 10px;
+  height: 350px;
+  transform-style: preserve-3d;
+  margin-top: 20px;
+}
+
+.layanan-box4 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.639);
+  border-radius: 10px;
+  height: 350px;
+  transform-style: preserve-3d;
+  margin-top: 20px;
+}
+
+.layanan-box5 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.639);  
+  border-radius: 10px;
+  height: 350px;
+  transform-style: preserve-3d;
+  margin-top: 20px;
+}
+
+/* LAYANAN BUTTON SHOW DETAILS */
+.layanan-detail-button {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5;
+  background-color: rgba(255, 255, 255, 0.272);
+}
+.layanan-box:hover .layanan-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+.layanan-box2:hover .layanan-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+.layanan-box3:hover .layanan-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+.layanan-box4:hover .layanan-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+.layanan-box5:hover .layanan-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+
+/* IOT IMAGE */
+.iot-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 100px);
+  max-width: 250px;
+  transition: 0.5s;
+}
+
+.layanan-box:hover .iot-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(-5deg) scale(1.2);
+}
+
+/* WEB IMAGE */
+.web-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 100px);
+  max-width: 250px;
+  transition: 0.5s;
+}
+
+.layanan-box2:hover .web-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(-5deg) scale(1.2);
+}
+
+/* GRAPHIC DESIGNER IMAGE */
+.gd-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 100px);
+  max-width: 150px;
+  transition: 0.5s;
+}
+
+.layanan-box3:hover .gd-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(-5deg) scale(1.2);
+}
+
+/* ARYA IMAGE */
+.arya-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 100px);
+  max-width: 150px;
+  transition: 0.5s;
+}
+
+.layanan-box4:hover .arya-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(-5deg) scale(1.2);
+}
+
+/* ARYA IMAGE */
+.afrizal-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 100px);
+  max-width: 150px;
+  transition: 0.5s;
+}
+
+.layanan-box5:hover .afrizal-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(-5deg) scale(1.2);
+}
+
+/* PORTOFOLIO HALAMAN */
+.portofolio {
+  background-size: cover;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.712)
+}
+
+.card:hover {
+  transform: scale(1.1); 
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Untuk memastikan gambar tidak terdistorsi */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.10rem;
+  font-style: italic;
+  margin: 0;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.70rem;
+  color: #000000;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* TENTANG HALAMAN */
+.tentang {
+  background-size: cover;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+/* Flex container for image and text */
+.content {
+  align-items: center;
+  gap: 50px;
+}
+
+.logo {
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+/* Responsive settings */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .text-container {
+    padding-top: 15px;
+  }
+}
+
+/* CLIENT */
+.whatsapp {
+  width: 110px; 
+  height: auto;
+  cursor: pointer;
+}
+
+.instagram {
+  width: 100px;
+  height: auto;
+}
+
+.facebook {
+  width: 100px;
+  height: auto;
+}
+
+.tekkom {
+  width: 200px;
+  height: auto;
+}
+
+.upi {
+  width: 280px;
+  height: auto;
+  padding-top: 10px;
+}
+
+
+/* KONTAK HALAMAN */
+.kontak {
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+/* KUBUS 1 */
+.cube-container {
+  perspective: 1000px;
+  width: 150px;
+  height: 150px;
+  position:absolute;
+  bottom: 100px; /* Posisi bawah layar */
+  left: 100px; /* Posisi pojok kiri layar */
+  margin: 0; /* Hilangkan margin */
+  
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotateCube 10s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.1);
+  line-height: 150px;
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.front { transform: rotateY(0deg) translateZ(75px); 
+background-color: #ffffffe4;}
+.back { transform: rotateY(180deg) translateZ(75px);
+background-color: #ffffffe4; }
+.left { transform: rotateY(-90deg) translateZ(75px);
+background-color: #ffffffe4; }
+.right { transform: rotateY(90deg) translateZ(75px); 
+background-color: #ffffffe4;}
+.top { transform: rotateX(90deg) translateZ(75px); 
+background-color:#ffffffe4;}
+.bottom { transform: rotateX(-90deg) translateZ(75px); 
+  background-color: #ffffffe4;}
+
+@keyframes rotateCube {
+  from { transform: rotateX(0deg) rotateY(0deg); }
+  to { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+/* KUBUS 2 */
+.cube-container2 {
+  perspective: 1000px;
+  width: 50px;
+  height: 50px;
+  position:absolute;
+  top: 155px; /* Posisi bawah layar */
+  right: 70px; /* Posisi pojok kiri layar */
+  margin: 0; /* Hilangkan margin */
+}
+
+.cube2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotateCube 10s infinite linear;
+}
+
+.face2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  line-height: 50px;
+  font-size: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.front2 { transform: rotateY(0deg) translateZ(25px); 
+background-color: #7fc7d9e7;}
+.back2 { transform: rotateY(180deg) translateZ(25px);
+background-color: #7fc7d9e7; }
+.left2 { transform: rotateY(-90deg) translateZ(25px);
+background-color: #7fc7d9e7; }
+.right2 { transform: rotateY(90deg) translateZ(25px); 
+background-color: #7fc7d9e7;}
+.top2 { transform: rotateX(90deg) translateZ(25px); 
+background-color:#7fc7d9e7;}
+.bottom2 { transform: rotateX(-90deg) translateZ(25px); 
+  background-color: #7fc7d9e7;}
+
+@keyframes rotateCube2 {
+  from { transform: rotateX(0deg) rotateY(0deg); }
+  to { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+/* KUBUS 3 */
+.cube-container3 {
+  perspective: 1000px;
+  width: 40px;
+  height: 40px;
+  position:absolute;
+  top: 160px; /* Posisi bawah layar */
+  right: 150px; /* Posisi pojok kiri layar */
+  margin: 0; /* Hilangkan margin */
+}
+
+.cube3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotateCube 10s infinite linear;
+}
+
+.face3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  line-height: 40px;
+  font-size: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.front3 { transform: rotateY(0deg) translateZ(20px); 
+background-color: #4a618abe;}
+.back3 { transform: rotateY(180deg) translateZ(20px);
+background-color: #4a618abe; }
+.left3 { transform: rotateY(-90deg) translateZ(20px);
+background-color: #4a618abe; }
+.right3 { transform: rotateY(90deg) translateZ(20px); 
+background-color: #4a618abe;}
+.top3 { transform: rotateX(90deg) translateZ(20px); 
+background-color:#4a618abe;}
+.bottom3 { transform: rotateX(-90deg) translateZ(20px); 
+  background-color: #4a618abe;}
+
+@keyframes rotateCube3 {
+  from { transform: rotateX(0deg) rotateY(0deg); }
+  to { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+/* KUBUS 4 */
+.cube-container4 {
+  perspective: 1000px;
+  width: 30px;
+  height: 30px;
+  position:absolute;
+  top: 165px; /* Posisi bawah layar */
+  right: 220px; /* Posisi pojok kiri layar */
+  margin: 0; /* Hilangkan margin */
+  
+}
+
+.cube4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotateCube 10s infinite linear;
+}
+
+.face4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  line-height: 30px;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.front4 { transform: rotateY(0deg) translateZ(15px); 
+background-color: #ffffffe4;}
+.back4 { transform: rotateY(180deg) translateZ(15px);
+background-color: #ffffffe4; }
+.left4 { transform: rotateY(-90deg) translateZ(15px);
+background-color: #ffffffe4; }
+.right4 { transform: rotateY(90deg) translateZ(15px); 
+background-color: #ffffffe4;}
+.top4 { transform: rotateX(90deg) translateZ(15px); 
+background-color:#ffffffe4;}
+.bottom4 { transform: rotateX(-90deg) translateZ(15px); 
+  background-color: #ffffffe4;}
+
+@keyframes rotateCube {
+  from { transform: rotateX(0deg) rotateY(0deg); }
+  to { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+.face img {
+  width: 100%; /* Gambar memenuhi sisi kubus */
+  height: 100%; /* Gambar memenuhi sisi kubus */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
+.face2 img {
+  width: 100%; /* Gambar memenuhi sisi kubus */
+  height: 100%; /* Gambar memenuhi sisi kubus */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
+
+.face3 img {
+  width: 100%; /* Gambar memenuhi sisi kubus */
+  height: 100%; /* Gambar memenuhi sisi kubus */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
+
+.face4 img {
+  width: 100%; /* Gambar memenuhi sisi kubus */
+  height: 100%; /* Gambar memenuhi sisi kubus */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
+
+.face5 img {
+  width: 100%; /* Gambar memenuhi sisi kubus */
+  height: 100%; /* Gambar memenuhi sisi kubus */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+}
